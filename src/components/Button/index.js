@@ -29,6 +29,6 @@ Button.propTypes = {
   isDisabled: PropTypes.bool,
   label: PropTypes.string.isRequired,
   onClick: PropTypes.func,
-  size: PropTypes.oneOf(['small', 'medium', 'large']),
+  size: PropTypes.oneOf(['small', 'medium', 'large', 'xlarge']),
   variant: PropTypes.oneOf(['primary', 'secondary']),
 }
